@@ -56,4 +56,35 @@ class Calls extends StatelessWidget {
       ),
     );
   }
+  Widget calllist(String name, IconData iconData, Color,String Time NetworkImage networkingImage) {
+    return Card(
+      margin: EdgeInsets.only(bottom: 0.5),
+      child:LisTile(
+        leading: CircleAvatar(
+          backgroundImage: networkingImage,
+          radius: 35,
+        ),
+        title: Text(
+          name,
+          style: TextStyle(fontWeight: FontWeight.w600),
+        ),
+        subtitle: Row(
+          children:[
+            Icon(
+              iconData,
+              color: iconColor,
+              size: 25,
+            ),
+            SizedBox(width:8),
+           ),    
+          ],
+        ),
+        trailing: Icon(
+          Icons.call,
+          size: 30,
+          color: Colors.teal,
+        ),
+      ),
+    ):
+  }
 }

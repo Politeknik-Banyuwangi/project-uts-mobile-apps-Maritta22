@@ -36,7 +36,7 @@ class Chats extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 0.9),
       child: ListTile(
         leading: CircleAvatar(
-          backgroundImage: ntimg,
+          backgroundImage: mdjpeg,
           radius: 35,
         ),
         title: Text(
@@ -61,4 +61,5 @@ class Chats extends StatelessWidget {
       ),
     );
   }
+}
 }

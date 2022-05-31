@@ -85,6 +85,6 @@ class Calls extends StatelessWidget {
           color: Colors.teal,
         ),
       ),
-    ):
+    );
   }
 }

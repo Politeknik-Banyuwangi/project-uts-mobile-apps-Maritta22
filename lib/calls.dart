@@ -18,8 +18,9 @@ class Calls extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            callList("Dimas Hendra", Icons.call_made, Colors.green, "Kemarin, 22:00", NetworkImage("https://i.ibb.co/NjYyCnj/Whats-App-Image-2022-05-31-at-11-58-17.jpg")),
+            callList("Dimas Hendra", Icons.call_received, Colors.green, "Kemarin, 22:00", NetworkImage("https://i.ibb.co/NjYyCnj/Whats-App-Image-2022-05-31-at-11-58-17.jpg")),
             callList("Ibu", Icons.call_made, Colors.green, "Kemarin, 17:15", NetworkImage("https://i.ibb.co/wRHRQgW/Whats-App-Image-2022-05-31-at-11-55-52.jpg")),
+            callList("Safira", Icons.call_missed, Colors.green, "Kemarin, 22:00", NetworkImage("https://i.ibb.co/NjYyCnj/Whats-App-Image-2022-05-31-at-11-58-17.jpg")),
             // Masukkan Coding disini jangan rubah lainnya
             //
             //

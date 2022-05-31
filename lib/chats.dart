@@ -43,7 +43,8 @@ class Chats extends StatelessWidget {
           name,
           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
-        subtitle: Row(children: [
+        subtitle: Row(
+          children: [
           Icon(
             iconD,
             size: 25,
@@ -57,7 +58,7 @@ class Chats extends StatelessWidget {
             ),
           ),
         ]),
-        trailing: Text(time),
+        trailing: Text(waktu),
       ),
     );
   }

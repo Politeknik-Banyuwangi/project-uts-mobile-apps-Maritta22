@@ -56,10 +56,10 @@ class Calls extends StatelessWidget {
       ),
     );
   }
-  Widget callList(String name, IconData iconData, Color,String Time NetworkImage networkImage) {
+  Widget callList(String name, IconData iconData, Color iconColor, String Time, NetworkImage networkImage) {
     return Card(
       margin: EdgeInsets.only(bottom: 0.5),
-      child:LisTile(
+      child: ListTile(
         leading: CircleAvatar(
           backgroundImage: networkImage,
           radius: 35,
@@ -69,22 +69,26 @@ class Calls extends StatelessWidget {
           style: TextStyle(fontWeight: FontWeight.w600),
         ),
         subtitle: Row(
-          children:[
+          children: [
             Icon(
               iconData,
               color: iconColor,
               size: 25,
             ),
-            SizedBox(width:8),
-           ),    
+            SizedBox(width: 6),
+            Text(
+              Time,
+              style: TextStyle(fontSize: 15),
+            ),
           ],
         ),
         trailing: Icon(
           Icons.call,
-          size: 30,
+          size: 25,
           color: Colors.teal,
         ),
       ),
     );
   }
+}
 }

@@ -18,7 +18,8 @@ class Calls extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-
+            callCard("Dimas Hendra", Icons.call_missed, Colors.red, "Kemarin, 22:00", NetworkImage("https://berita.yodu.id/wp-content/uploads/2022/01/Header.webp")),
+            callCard("Ibu", Icons.call_missed, Colors.red, "Kemarin, 17:15", NetworkImage("https://i.ibb.co/wRHRQgW/Whats-App-Image-2022-05-31-at-11-55-52.jpg")),
             // Masukkan Coding disini jangan rubah lainnya
             //
             //

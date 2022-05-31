@@ -23,7 +23,7 @@ class Calls extends StatelessWidget {
             callList("Safira", Icons.call_missed, Colors.red, "Mei 25, 12:04", NetworkImage("https://i.ibb.co/YdhbRbF/th.jpg")),
             callList("Adelina", Icons.call_made, Colors.green, "Mei 05, 07:01", NetworkImage("https://i.ibb.co/LJqgWGQ/adel.jpg")),
             callList("Putri", Icons.call_missed, Colors.red, "April 17, 13:04", NetworkImage("https://i.ibb.co/4Y4Pmp9/putri2.jpg")),
-
+            callList("Icha", Icons.call_made, Colors.green, "April 10, 09:07", NetworkImage("https://i.ibb.co/qJzBmvQ/icha.jpg")),
             // Masukkan Coding disini jangan rubah lainnya
             //
             //

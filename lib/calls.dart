@@ -61,7 +61,7 @@ class Calls extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 0.5),
       child:LisTile(
         leading: CircleAvatar(
-          backgroundImage: networkingImage,
+          backgroundImage: networkImage,
           radius: 35,
         ),
         title: Text(

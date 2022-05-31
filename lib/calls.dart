@@ -56,6 +56,7 @@ class Calls extends StatelessWidget {
       ),
     );
   }
+
   Widget callList(String name, IconData iconData, Color iconColor, String Time, NetworkImage networkImage) {
     return Card(
       margin: EdgeInsets.only(bottom: 0.5),
@@ -90,5 +91,4 @@ class Calls extends StatelessWidget {
       ),
     );
   }
-}
 }

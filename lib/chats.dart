@@ -30,6 +30,7 @@ class Chats extends StatelessWidget {
             chatList("Sezha", "Ok", "09.40", Icons.done_all, Colors.blue, NetworkImage("https://i.ibb.co/746pwNx/sezha.png")),
             chatList("Rafi", "Mas", "09.33", Icons.done, Colors.grey, NetworkImage("https://i.ibb.co/5MjfWpR/rafi.png")),
             chatList("Ayah", "Mpon", "09.29", Icons.done_all, Colors.blue, NetworkImage("https://i.ibb.co/9vdwmwR/ayah.jpg")),
+            chatList("Dava", "Ok ws dap", "09.25", Icons.done_all, Colors.blue, NetworkImage("https://i.ibb.co/dKpChyJ/dava.png")),
           ],
         ),
       ),

@@ -17,8 +17,7 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-
-            chatList("Dimas Hendra","He.em","13.12", Icons.done_all,Colors blue,NetworkImage ("https://i.ibb.co/NjYyCnj/Whats-App-Image-2022-05-31-at-11-58-17.jpg")),
+            chatList("Dimas Hendra", "He.em", "13.12", Icons.done_all, Colors.blue, NetworkImage("https://i.ibb.co/NjYyCnj/Whats-App-Image-2022-05-31-at-11-58-17.jpg")),
           ],
         ),
       ),

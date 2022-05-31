@@ -38,7 +38,6 @@ class Chats extends StatelessWidget {
             chatList("Khusus Info", "Iy rek", "Kemarin", Icons.done_all, Colors.grey, NetworkImage("hhttps://i.pinimg.com/originals/17/c5/39/17c539e287a335e5f5a7eb3cc97e46ed.jpg")),
             chatList("Tante", "Enggh te", "Kemarin", Icons.done_all, Colors.blue, NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjkzoYzF1ADCKRN8f0Rq7W2hFM792Q7xjDA&usqp=CAU")),
           ],
-          ],
         ),
       ),
       floatingActionButton: FloatingActionButton(

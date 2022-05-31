@@ -56,7 +56,7 @@ class Calls extends StatelessWidget {
       ),
     );
   }
-  Widget calllist(String name, IconData iconData, Color,String Time NetworkImage networkingImage) {
+  Widget callList(String name, IconData iconData, Color,String Time NetworkImage networkingImage) {
     return Card(
       margin: EdgeInsets.only(bottom: 0.5),
       child:LisTile(
